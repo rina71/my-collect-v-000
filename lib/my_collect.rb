@@ -10,7 +10,7 @@ while i < array.count
   i += 1
 
 end
-collection1
+collection
 end
 
-my_collect(collection) {|name| collection1 << name.upcase}
+my_collect(collection) {|name| collection << name.upcase}
