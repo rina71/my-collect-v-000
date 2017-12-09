@@ -15,4 +15,4 @@ end
 collect
 end
 
-my_collect(arry) {|name|  name.upcase}
+# my_collect(arry) {|name|  name.upcase}
