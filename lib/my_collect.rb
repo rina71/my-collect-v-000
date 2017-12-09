@@ -5,7 +5,7 @@ def my_collect(array)
   if collection =[]
 i = 0
 while i < collection.count
-  yield
+  yield(collection[i])
   i += 1
 
 end
