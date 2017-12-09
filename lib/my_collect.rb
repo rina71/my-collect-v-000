@@ -2,10 +2,11 @@
 # array =[]
 def my_collect(array)
   # collection = []
-  if collection =[]
+
 i = 0
-while i < collection.count
-  yield(collection[i])
+collection =[]
+while i < array.count
+  yield(array[i])
   i += 1
 
 end
