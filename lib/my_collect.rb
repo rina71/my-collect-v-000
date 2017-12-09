@@ -1,6 +1,6 @@
 # collection = []
 # array =[]
-require pry
+require 'pry'
 def my_collect(array)
   array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
   # collection = []
