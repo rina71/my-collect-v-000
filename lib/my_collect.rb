@@ -13,4 +13,4 @@ end
 collection
 end
 
-my_collect(collection) {|name| collection << name.upcase}
+my_collect(array) {|name| collection << name.upcase}
