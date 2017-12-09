@@ -1,18 +1,18 @@
 # collection = []
 # array =[]
 # require 'pry'
-def my_collect(array)
+def my_collect(arry)
 
   # collection = []
 
 i = 0
 collection =[]
-while i < array.count
-  collect << yield(array[i])
+while i < arry.count
+  collect << yield(arry[i])
   i += 1
 
 end
 collect
 end
 
-my_collect(array) {|name|  name.upcase}
+my_collect(arry) {|name|  name.upcase}
