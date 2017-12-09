@@ -1,6 +1,6 @@
 # collection = []
 # array =[]
-require 'pry'
+# require 'pry'
 def my_collect(array)
   
   # collection = []
@@ -8,11 +8,11 @@ def my_collect(array)
 i = 0
 collection =[]
 while i < array.count
-  yield(array[i])
+  collect << yield(array[i])
   i += 1
-binding.pry
+
 end
-collection
+collect
 end
 
 my_collect(array) {|name| collection << name.upcase}
