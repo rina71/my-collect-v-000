@@ -6,7 +6,7 @@ def my_collect(arry)
   # collection = []
 
 i = 0
-collection =[]
+collect =[]
 while i < arry.count
   collect << yield(arry[i])
   i += 1
