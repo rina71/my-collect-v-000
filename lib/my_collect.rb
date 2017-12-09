@@ -2,7 +2,7 @@
 # array =[]
 # require 'pry'
 def my_collect(array)
-  
+
   # collection = []
 
 i = 0
@@ -15,4 +15,4 @@ end
 collect
 end
 
-my_collect(array) {|name| collection << name.upcase}
+my_collect(array) {|name|  name.upcase}
