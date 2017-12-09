@@ -1,12 +1,15 @@
-collection = []
-def my_collect(collection)
+# collection = []
+# array =[]
+def my_collect(array)
   # collection = []
+  if collection =[]
 i = 0
 while i < collection.count
   yield
   i += 1
 
+end
+collection1
+end
 
-end
-end
-my_collect(collection) {|name| name.upcase}
+my_collect(collection) {|name| collection1 << name.upcase}
